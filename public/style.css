@@ -1,5 +1,131 @@
 *{
     padding: 0;
-    margin: 0
+    margin: 0;
     
+/* Faz com que as bordas e espaçamentos sejam incluidos no cálculo do tamanho do elemento */
+box-sizing: border-box;
 }
+
+/* Configuração gerais aplicadas a toda a página */
+body{
+
+    /* Define a fonte principal utilizada no site */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Define a cor de fundo da página */
+    background-color: #f4f4f4;
+
+    /* Define a cor padrão dos textos */
+    color: #333;
+
+    /* Define o espaçamento entre linhas */
+    line-height: 1.6;
+}
+
+/* Cabeçalho principal da página */
+header{
+
+    /* Define a cor do fundo do cabeçalho */
+    background-color: #1f2937;
+
+    /* Define a cor do texto como branca */
+    color: white;
+
+    /* Centraliza os textos do cabeçalho */
+    text-align: center;
+
+    /* Adiciona espaçamento interno ao cabeçalho */
+    padding: 30px;
+}
+
+nav{
+
+    /* Define a cor de fundo do menu */
+    background-color: #374151;
+
+    /* Centraliza os link no menu */
+    text-align: center;
+
+    /* Adiciona espaçamento interno ao menu */
+    padding: 15px;
+
+}
+
+/* links presentes dentro do menu */
+nav a{
+
+    /* Define a cor dos links */
+    color: white;
+
+    /* remove o sublinhado padrão dos links */
+    text-decoration: none;
+
+    /* Cria espaçamento entre os links */
+    margin: 0 15px;
+
+    /* Deixa o texto em negrito */
+    font-weight: bold;
+}
+
+/* Efeito aplicado quando o mouse passa sobre um link */
+nav a:hover{
+
+
+    /* Alterar a cor do link durante o hover */
+    color: #fbbf24;
+}
+
+main{
+
+    /* Area principal onde ficará o conteúdo da página */
+    width: 90%;
+
+    /* Centraliza o conteúdo ocupará 90% da largura disponivel */
+    margin: auto;
+
+    /* Adiciona espaçamento interno */
+    padding: 20px;
+
+}
+
+/* Configuração das seções da pagina */
+section{
+
+    /* Define o fundo branco para destacar o conteúdo */
+    background-color: white;
+
+    /* Adiciona espaçamento interno */
+    padding: 20px;
+
+    /* Arredonda os cantos das seções */
+    border-radius: 10px;
+
+    margin: 10px;
+}
+
+/* Titulos de nivel 2 que estão dentro das seções */
+section h2{
+
+    /* Adiciona espaço abaixo do titulo */
+    margin-bottom: 15px;
+
+    /* Define a cor do titulo */
+    color: #1f2937;
+}
+
+/* Rodapé da página */
+footer{
+
+    /* Define a cor de fundo do rodapé */
+    background-color: #1f2947;
+
+    /* Define a cor do texto */
+    color: white;
+
+    /* Centraliza o conteudo do rodapé */
+    text-align: center;
+
+    /* Adiciona espaçamento interno */
+    padding: 15px;
+}
+
