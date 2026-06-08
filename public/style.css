@@ -22,6 +22,8 @@ body{
     line-height: 1.6;
 }
 
+
+
 /* Cabeçalho principal da página */
 header{
 
@@ -225,7 +227,6 @@ footer {
 
 /* Área que organiza os cards em formato de grade */
 .grid {
-
     /* Ativa o CSS Grid */
     display: grid;
 
@@ -234,6 +235,12 @@ footer {
 
     /* Define o espaço entre os cards */
     gap: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* Estilo visual de cada card */
@@ -298,6 +305,8 @@ footer {
 
     /* Cursor de clique */
     cursor: pointer;
+
+    margin-bottom: 10px;
 }
 
 /* Efeito ao passar o mouse no botão */
