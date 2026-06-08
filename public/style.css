@@ -88,6 +88,225 @@ main{
 
 }
 
+/* Remove as margens e espaçamentos padrões aplicados pelo navegador */
+* {
+    margin: 0;
+    padding: 0;
+
+    /* Faz com que bordas e espaçamentos sejam incluídos no cálculo do tamanho do elemento */
+    box-sizing: border-box;
+}
+
+/* Configurações gerais aplicadas a toda a página */
+body {
+
+    /* Define a fonte principal utilizada no site */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Define a cor de fundo da página */
+    background-color: #f4f4f4;
+
+    /* Define a cor padrão dos textos */
+    color: #333;
+
+    /* Define o espaçamento entre as linhas do texto */
+    line-height: 1.6;
+}
+
+/* Cabeçalho principal da página */
+header {
+
+    /* Define a cor de fundo do cabeçalho */
+    background-color: #1f2937;
+
+    /* Define a cor do texto como branca */
+    color: white;
+
+    /* Centraliza os textos do cabeçalho */
+    text-align: center;
+
+    /* Adiciona espaçamento interno ao cabeçalho */
+    padding: 30px;
+}
+
+/* Menu de navegação */
+nav {
+
+    /* Define a cor de fundo do menu */
+    background-color: #374151;
+
+    /* Centraliza os links do menu */
+    text-align: center;
+
+    /* Adiciona espaçamento interno ao menu */
+    padding: 15px;
+}
+
+/* Links presentes dentro do menu */
+nav a {
+
+    /* Define a cor dos links */
+    color: white;
+
+    /* Remove o sublinhado padrão dos links */
+    text-decoration: none;
+
+    /* Cria espaçamento entre os links */
+    margin: 0 15px;
+
+    /* Deixa o texto em negrito */
+    font-weight: bold;
+}
+
+/* Efeito aplicado quando o mouse passa sobre um link */
+nav a:hover {
+
+    /* Altera a cor do link durante o hover */
+    color: #fbbf24;
+}
+
+/* Área principal onde ficará o conteúdo da página */
+main {
+
+    /* Define que o conteúdo ocupará 90% da largura disponível */
+    width: 90%;
+
+    /* Centraliza o conteúdo horizontalmente */
+    margin: auto;
+
+    /* Adiciona espaçamento interno */
+    padding: 20px;
+}
+
+/* Configuração das seções da página */
+section {
+
+    /* Define o fundo branco para destacar o conteúdo */
+    background-color: white;
+
+    /* Adiciona espaçamento interno */
+    padding: 20px;
+
+    /* Adiciona espaço abaixo de cada seção */
+    margin-bottom: 20px;
+
+    /* Arredonda os cantos das seções */
+    border-radius: 10px;
+}
+
+/* Títulos de nível 2 que estão dentro das seções */
+section h2 {
+
+    /* Adiciona espaço abaixo do título */
+    margin-bottom: 15px;
+
+    /* Define a cor do título */
+    color: #1f2937;
+}
+
+/* Rodapé da página */
+footer {
+
+    /* Define a cor de fundo do rodapé */
+    background-color: #1f2937;
+
+    /* Define a cor do texto */
+    color: white;
+
+    /* Centraliza o conteúdo do rodapé */
+    text-align: center;
+
+    /* Adiciona espaçamento interno */
+    padding: 15px;
+}
+
+/*-------------------------- Estilizando a parte dos cards ---------------------------------------------------*/
+
+
+/* Área que organiza os cards em formato de grade */
+.grid {
+
+    /* Ativa o CSS Grid */
+    display: grid;
+
+    /* Cria 3 colunas com tamanhos iguais */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* Define o espaço entre os cards */
+    gap: 20px;
+}
+
+/* Estilo visual de cada card */
+.card {
+
+    /* Cor de fundo do card */
+    background-color: #f9fafb;
+
+    /* Borda clara ao redor do card */
+    border: 1px solid #ddd;
+
+    /* Arredonda os cantos */
+    border-radius: 10px;
+
+    /* Espaçamento interno */
+    padding: 20px;
+
+    /* Centraliza o texto */
+    text-align: center;
+
+    /* Sombra suave */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Título do card */
+.card h3 {
+
+    /* Espaço abaixo do título */
+    margin-bottom: 10px;
+
+    /* Cor do título */
+    color: #1f2937;
+}
+
+/* Texto do card */
+.card p {
+
+    /* Tamanho do texto */
+    font-size: 14px;
+
+    /* Espaço abaixo do texto */
+    margin-bottom: 15px;
+}
+
+/* Botão do card */
+.card button {
+
+    /* Cor de fundo */
+    background-color: #2563eb;
+
+    /* Cor da fonte */
+    color: white;
+
+    /* Remove a borda padrão */
+    border: none;
+
+    /* Espaçamento interno */
+    padding: 10px 15px;
+
+    /* Arredondamento */
+    border-radius: 5px;
+
+    /* Cursor de clique */
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse no botão */
+.card button:hover {
+
+    /* Cor de fundo mais escura */
+    background-color: #1d4ed8;
+}
+
 /* Configuração das seções da pagina */
 section{
 
