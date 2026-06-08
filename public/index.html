@@ -1,69 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Page</title>
-    <link rel="stylesheet" href="/public/style.css">
+    <title>Single Page - Produtos de Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+        
 <body>
-    <!-- CABEÇALHO PRINCIPAL DA PAGINA -->
-    <header>
-        <h1>Produtos de Tecnologia</h1>
-        <p>Uma atividade prática com HTML, CSS, JavaScript, MySQL, API e Insomnia</p>
+    </body>
+        <header>
+            <h1>Produtos de Tecnologia</h1>
+            <p>Uma atividade prática com HTML, CSS, JavaScript, MySQL, API e Insomnia.</p>
     </header>
 
-    <!-- MENU DE NAVEGAÇÃO  -->
     <nav>
-        <a href="#Inicio">Inicio</a>
-        <a href="#Produtos">Produtos</a>
-        <a href="#Sobre">Sobre</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
     </nav>
-
-    <!-- CONTEUDO PRINCIPAL  -->
     <main>
-
-        <!-- SELEÇÃO INICIAL DA PAGINA  -->
         <section id="inicio">
-            <h2>Bem-vindo á nossa Single Page</h2>
+            <h2>Bem-vindo à nossa Single Page</h2>
             <p>
                 Nesta página serão exibidos produtos de tecnologia organizados em cards.
-                Ao clicar em cada produto, será possivel visualizar mais detalhes.
-            </p>
+                Aoclicar em cada produto, será possivel visualizar mais detalhes.
+            </p>        
         </section>
 
-        <!-- SESSÃO ONDE FUTURAMENTE FICARÃO OS CARDS  -->
-         <section id="produtos">
-            <h2>Lista de produtos</h2>
-         
+        <section id="#produtos">
+            <h2>Lista de Prdodutos</h2>
 
-         <!-- ESTA DIV RECEBERÁ OS CARDS DOS PRODUTOS  -->
-          <div class="grid"> 
-          </div>
-          
-            <!-- OS CARDS SERÃO CRIADOS NAS PROXIMAS AULAS  -->
+            <div class="grid">
+
+                <div class="card">
+                    <h3>Mouse Gamer</h3>
+                    <p>Periférico com iluminação RGB e botões programáveis.</p>
+                    <button>Ver detalhes</button>
+                </div>
+
+                <div class="card">
+                    <h3>Teclado Mecânico</h3>
+                    <p>Teclado com switches mecânicos e alta durabilidade.</p>
+                    <button>Ver detalhes</button>
+                </div>
+
+                <div class="card">
+                    <h3>Monitor 24 Polegadas</h3>
+                    <p>Monitor Full HD indicado para estudos e trabalho.</p>
+                    <button>Ver detalhes</button>
+                </div>
+
+                <div class="card">
+                    <h3>Notebook Core i5</h3>
+                    <p>Notebook para produtividade, estudo e navegação.</p>
+                    <button>Ver detalhes</button>
+                </div>
+
+                <div class="card">
+                    <h3>SSD 480GB</h3>
+                    <p>Unidade de armazenamento rápida para computadores.</p>
+                    <button>Ver detalhes</button>
+                </div>
+
+                <div class="card">
+                    <h3>Arduino Uno</h3>
+                    <p>Placa utilizada em projetos de eletrônica e robótica.</p>
+                    <button>Ver detalhes</button>
+                </div>
+
+
+
+            </div>
         </section>
 
-        <!-- SESSAÕ SOBRE-->
-         <section id="sobre">
-            <h2>Sobre o projeto</h2>
+        <section id="#sobre">
+            <h2>Sobre o Projeto</h2>
             <p>
                 Este projeto tem como objetivo revisar conceitos de desenvolvimento web,
-                bando de dados, API e testes com Insomnia
+                banco de dados, API e testes com Insomnia.
             </p>
-         </section>   
+        </section>
+
 
     </main>
 
-    <!-- RODAPÉ DA PÁGINA  -->
-     <footer>
-        <p>Atividade prática desenvolvida em sala de aula</p>
-     </footer>
-     
-     <!-- LINK PARA O ARQUIVO javaScript EXTERNO  -->
-      <link rel="stylesheet" href="script.js">
+    <footer>
+        <p>Atividade prática desenvolvida em sala de aula.</p>
+    </footer>
 
-
-
+    <script src="script.js"></script>
 </body>
 </html>
