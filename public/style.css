@@ -357,3 +357,81 @@ footer{
     padding: 15px;
 }
 
+#modalOverlay{
+    display: flex;
+
+    /* Fixar na tela */
+    position: fixed;
+
+    /* Encostar no topo */
+    top: 0;
+
+    /* Encostar esquerda */
+    left: 0;
+
+    /* ocupar toda a largura */
+    width: 100%;
+
+    /* Ocupar toda a altura */
+    height: 100%;
+
+    /* Escurecer o fundo */
+    background-color: rgba(0, 0, 0, 0.6);
+
+    /* Centralizar horizontalmente*/
+    justify-content: center;
+
+    /* Centralizar Verticalmente */
+    align-items: center;
+}
+
+/* Janela do modal */
+.modal{
+
+    /* Fundo do modal */
+    background-color: white;
+
+    /* Espaçamento interno */
+    padding: 30px;
+
+    /* Largura maxima */
+    width: 500px;
+
+    /* Arredondar os cantos */
+    border-radius: 10px;
+
+    /* Centralizar o texto */
+    text-align: center;
+
+    /* Criar sombra */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+/* Botão fechar */
+
+#btnFechar{
+
+    /* Cor de fundo */
+    background-color: #dc2626;
+
+    /* Cor do texto */
+    color: white;
+
+    /* Remover a borda */
+    border: none;
+
+    /* Espaçamento interno */
+    padding: 10px 20px;
+
+    /* Arredondar os cantos */
+    border-radius: 10px;
+
+    /* cursor */
+    cursor: pointer;
+
+    /* Espaçamento superior */
+    margin-top: 20px;
+
+}
+
+}
+
