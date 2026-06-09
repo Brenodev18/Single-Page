@@ -358,7 +358,7 @@ footer{
 }
 
 #modalOverlay{
-    display: flex;
+    display: none;
 
     /* Fixar na tela */
     position: fixed;
