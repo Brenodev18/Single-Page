@@ -15,7 +15,7 @@ function abrirModal(){
     modalOverlay.style.display = "flex"
 }
 
-                                    // Fechar modal 
+// Fechar modal 
 function fecharModal(){
 
     modalOverlay.style.display = "none"
@@ -37,8 +37,8 @@ modalOverlay.addEventListener(
     }
     
 )
-                                  //////////////////////////         
-                                                    
+//////////////////////////         
+
 // Adicionar evento ao botão fechar
 
 btnFechar.addEventListener(
