@@ -15,12 +15,30 @@ function abrirModal(){
     modalOverlay.style.display = "flex"
 }
 
-// Fechar modal
+                                    // Fechar modal 
 function fecharModal(){
 
     modalOverlay.style.display = "none"
+
 }
 
+// Fechar modal ao clicar fora 
+modalOverlay.addEventListener(
+        "click",
+        
+
+        function(evento){
+
+            // Verifica se o clique foi realizado diretamente no overlay
+            if(evento.target===modalOverlay){
+                fecharModal()
+                
+        }
+    }
+    
+)
+                                  //////////////////////////         
+                                                    
 // Adicionar evento ao botão fechar
 
 btnFechar.addEventListener(
@@ -42,4 +60,6 @@ botoesDetalhes.forEach(
     }
 
 );
+
+
 
